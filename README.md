@@ -27,6 +27,7 @@ Topics:
   - this is where we're going to declare and specify our router. 
 * Step 6: create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
   - be sure to incluce the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components. 
+* Step &
 
 ### Steps for setting up your Navigation
 
@@ -34,4 +35,9 @@ Topics:
 * Step 8: delete `NavLink` and replace it with `<Link />`
   - Pro-tip: highlight NavLink and use `cmd/ctrl + d` to select them all at once.
 * Step 9: change the href on `<Link>` to `to` and specify the correct routes to navigate to. 
-* Step 10: head over to your app and start navigating. 
+* Step 10: head over to your app and start navigating. You should be able to see your URLS changing their paths as you go.
+
+### Resources
+
+* [Code Sandbox from Lecture](https://codesandbox.io/s/n58oqgwmP)
+* [React Router 4 Quick Start Guide](https://reacttraining.com/react-router/web/guides/quick-start)
