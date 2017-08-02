@@ -18,7 +18,10 @@ Topics:
 * Step 1: `import { BrowserRouter as Router } from 'react-router-dom';` inside your `index.js` file.
 * Step 2: Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your `<Router> </Router>` component.
 * Step 3: open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
-* Step 4: inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props
+* Step 4: inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props.
+* Step 5: inside of your `App.js` file `import { Route } from 'react-router-dom';`
+  - this is where we're going to declare and specify our router. 
+* Step 6: create 3 `<Route />` setting their `to` equal to `/`, `/about`, `/contact` with their respective components
 
 
 
