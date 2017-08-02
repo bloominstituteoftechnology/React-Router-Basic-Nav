@@ -12,6 +12,13 @@
   font-size: large;
 }
 
+.Nav-link {
+  padding: 2rem;
+}
+
+.nav-item {
+  margin-top: 1rem;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
