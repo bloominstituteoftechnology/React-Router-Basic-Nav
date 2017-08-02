@@ -27,7 +27,7 @@ Topics:
   - this is where we're going to declare and specify our router. 
 * Step 6: create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
   - be sure to incluce the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components. 
-* Step &
+* Step 7: you should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
 
 ### Steps for setting up your Navigation
 
