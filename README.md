@@ -31,11 +31,11 @@ Topics:
 
 ### Steps for setting up your Navigation
 
-* Step 7: inside of `Navigation.js` `import { Link } from 'react-router-dom'` 
-* Step 8: delete `NavLink` and replace it with `<Link />`
+* Step 8: inside of `Navigation.js` `import { Link } from 'react-router-dom'` 
+* Step 9: delete `NavLink` and replace it with `<Link />`
   - Pro-tip: highlight NavLink and use `cmd/ctrl + d` to select them all at once.
-* Step 9: change the href on `<Link>` to `to` and specify the correct routes to navigate to. 
-* Step 10: head over to your app and start navigating. You should be able to see your URLS changing their paths as you go.
+* Step 10: change the href on `<Link>` to `to` and specify the correct routes to navigate to. 
+* Step 11: head over to your app and start navigating. You should be able to see your URLS changing their paths as you go.
 
 ### Resources
 
