@@ -36,7 +36,7 @@ Topics:
   - Pro-tip: highlight NavLink and use `cmd/ctrl + d` to select them all at once.
 * Step 10: change the href on `<Link>` to `to` and specify the correct routes to navigate to. 
 * Step 11: head over to your app and start navigating. You should be able to see your URLS changing their paths as you go.
-
+href
 ### Resources
 
 * [Code Sandbox from Lecture](https://codesandbox.io/s/n58oqgwmP)
