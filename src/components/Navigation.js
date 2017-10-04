@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
 const Navigation = () => {
@@ -7,13 +8,13 @@ const Navigation = () => {
       <Nav className="App">
         <h1>React Router Mini</h1>
         <NavItem>
-          <NavLink href="#">Home</NavLink>
+          <Link to="/">Home</Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#">About</NavLink>
+          <Link to="/about">About</Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Contact</NavLink>
+          <Link to="/contact">Contact</Link>
         </NavItem>
       </Nav>
     </div>
