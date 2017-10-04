@@ -1,7 +1,27 @@
 .App {
   text-align: center;
-}
+  width: 100%;
+  background-color: #6AB3F0;
+  text-align: center;
+  display: inline-block;
+  padding:1% 0;
+  border-bottom: 2px solid black;
 
+}
+.link {
+  display: inline-block;
+  margin-right:1%;
+  background-color: #FFFFFF;
+  border:2px solid black;
+  font-size: 1.2em;
+  padding: 0.5%;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.link:hover{
+  background-color: #E6E6E6;
+}
 .Nav-link {
   padding: 2rem;
 }
