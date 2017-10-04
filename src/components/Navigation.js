@@ -1,23 +1,25 @@
 import React from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { div } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
-const Navigation = () => {
+const divigation = () => {
   return (
     <div>
-      <Nav className="App">
+      <div className="App">
         <h1>React Router Mini</h1>
-        <NavItem>
-          <NavLink href="#">Home</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#">About</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#">Contact</NavLink>
-        </NavItem>
-      </Nav>
+        <div  className="link">
+          <Link to="/"> Home </Link>
+          
+        </div>
+        <div  className="link">
+          <Link to="/about"> About </Link>
+        </div>
+        <div className="link">
+          <Link  to="/contact"> Contact </Link>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Navigation;
+export default divigation;
