@@ -9,3 +9,7 @@
 .nav-item {
   margin-top: 1rem;
 }
+
+.nav-link--active {
+  font-weight: 700;
+}
