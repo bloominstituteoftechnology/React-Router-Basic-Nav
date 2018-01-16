@@ -33,6 +33,16 @@ function Products(props) {
 	console.log(props);
 	return (
 		<div className="View">
+			<ProductsNavBar />
+
+			<p>This is the products home page</p>
+		</div>
+	)
+}
+
+function ProductsNavBar(props) {
+	return (
+		<div>
 			<ul className="NavHeader">
 				<li className="NavLink">
 					<NavLink exact to="/movies" className="NavLink--title" activeClassName="NavLink--selected">
@@ -50,43 +60,21 @@ function Products(props) {
 					</NavLink>
 				</li>
 			</ul>
+
 			<hr />
-
-			<p>This is the products home page</p>
-
-			<Route path="/movies" component={Movies} />
-			<Route path="/music" component={Music} />
-			<Route path="/books" component={Books} />
 		</div>
-	)
+	)	
 }
 
 function Movies(props) {
+	console.log('movies')
+	console.log(props)
 	return (
 		<div className="View">
-				<ul className="NavHeader">
-					<li className="NavLink">
-						<NavLink exact to="/movies" className="NavLink--title" activeClassName="NavLink--selected">
-								Movies
-						</NavLink>
-					</li>
-					<li className="NavLink">
-						<NavLink exact to="/music" className="NavLink--title" activeClassName="NavLink--selected">
-							Music
-						</NavLink>
-					</li>
-					<li className="NavLink">
-						<NavLink exact to="books" className="NavLink--title" activeClassName="NavLink--selected">
-							Books
-						</NavLink>
-					</li>
-			</ul>
-			<hr />
+			<ProductsNavBar />
 
-			<div>
-				<h1>Movies Comp</h1>
-				<p>This is the movies comp</p>
-			</div>
+			<h1>Movies Comp</h1>
+			<p>This is the movies comp</p>
 		</div>
 	)
 }
@@ -94,24 +82,7 @@ function Movies(props) {
 function Music(props) {
 	return (
 		<div className="View">
-				<ul className="NavHeader">
-					<li className="NavLink">
-						<NavLink exact to="/movies" className="NavLink--title" activeClassName="NavLink--selected">
-								Movies
-						</NavLink>
-					</li>
-					<li className="NavLink">
-						<NavLink exact to="/music" className="NavLink--title" activeClassName="NavLink--selected">
-							Music
-						</NavLink>
-					</li>
-					<li className="NavLink">
-						<NavLink exact to="/books" className="NavLink--title" activeClassName="NavLink--selected">
-							Books
-						</NavLink>
-					</li>
-			</ul>
-			<hr />
+			<ProductsNavBar />
 
 			<h1>Music Comp</h1>
 			<p>This is the music comp</p>
@@ -122,24 +93,7 @@ function Music(props) {
 function Books(props) {
 	return (
 		<div className="View">
-				<ul className="NavHeader">
-					<li className="NavLink">
-						<NavLink exact to="/movies" className="NavLink--title" activeClassName="NavLink--selected">
-								Movies
-						</NavLink>
-					</li>
-					<li className="NavLink">
-						<NavLink exact to="/music" className="NavLink--title" activeClassName="NavLink--selected">
-							Music
-						</NavLink>
-					</li>
-					<li className="NavLink">
-						<NavLink exact to="/books" className="NavLink--title" activeClassName="NavLink--selected">
-							Books
-						</NavLink>
-					</li>
-			</ul>
-			<hr />
+			<ProductsNavBar />
 
 			<h1>Books Comp</h1>
 			<p>This is the books comp</p>
