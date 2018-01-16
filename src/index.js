@@ -45,7 +45,7 @@ function Products(props) {
 					</NavLink>
 				</li>
 				<li className="NavLink">
-					<NavLink exact to={`${props.match.path}/books`} className="NavLink--title" activeClassName="NavLink--selected">
+					<NavLink exact to="/books" className="NavLink--title" activeClassName="NavLink--selected">
 						Books
 					</NavLink>
 				</li>
@@ -56,13 +56,12 @@ function Products(props) {
 
 			<Route path="/movies" component={Movies} />
 			<Route path="/music" component={Music} />
-			<Route path={`${props.match.path}/books`} component={Books} />
+			<Route path="/books" component={Books} />
 		</div>
 	)
 }
 
 function Movies(props) {
-	console.log(props);
 	return (
 		<div className="View">
 				<ul className="NavHeader">
@@ -77,7 +76,7 @@ function Movies(props) {
 						</NavLink>
 					</li>
 					<li className="NavLink">
-						<NavLink exact to={`${props.match.path}/books`} className="NavLink--title" activeClassName="NavLink--selected">
+						<NavLink exact to="books" className="NavLink--title" activeClassName="NavLink--selected">
 							Books
 						</NavLink>
 					</li>
@@ -107,7 +106,7 @@ function Music(props) {
 						</NavLink>
 					</li>
 					<li className="NavLink">
-						<NavLink exact to={`${props.match.path}/books`} className="NavLink--title" activeClassName="NavLink--selected">
+						<NavLink exact to="/books" className="NavLink--title" activeClassName="NavLink--selected">
 							Books
 						</NavLink>
 					</li>
@@ -123,6 +122,25 @@ function Music(props) {
 function Books(props) {
 	return (
 		<div className="View">
+				<ul className="NavHeader">
+					<li className="NavLink">
+						<NavLink exact to="/movies" className="NavLink--title" activeClassName="NavLink--selected">
+								Movies
+						</NavLink>
+					</li>
+					<li className="NavLink">
+						<NavLink exact to="/music" className="NavLink--title" activeClassName="NavLink--selected">
+							Music
+						</NavLink>
+					</li>
+					<li className="NavLink">
+						<NavLink exact to="/books" className="NavLink--title" activeClassName="NavLink--selected">
+							Books
+						</NavLink>
+					</li>
+			</ul>
+			<hr />
+
 			<h1>Books Comp</h1>
 			<p>This is the books comp</p>
 		</div>
@@ -156,6 +174,7 @@ ReactDOM.render(
 			<Route path="/products" component={Products} />
 			<Route path="/movies" component={Movies} />
 			<Route path="/music" component={Music} />
+			<Route path="/books" component={Books} />
 		</div>
 	</Router>,
 	document.getElementById('root')
