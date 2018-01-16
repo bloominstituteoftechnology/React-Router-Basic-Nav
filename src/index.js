@@ -29,8 +29,8 @@ function About(props) {
 }
 
 function Products(props) {
-	console.log('products props')
-	console.log(props);
+	// console.log('products props')
+	// console.log(props);
 	return (
 		<div className="View">
 			<ProductsNavBar />
@@ -67,13 +67,13 @@ function ProductsNavBar(props) {
 }
 
 function Movies(props) {
-	console.log('movies')
-	console.log(props)
+	// console.log('movies')
+	// console.log(props)
 	return (
 		<div className="View">
 			<ProductsNavBar />
 
-			<h1>Movies Comp</h1>
+			<h1>Movies</h1>
 			<p>This is the movies comp</p>
 		</div>
 	)
@@ -84,7 +84,7 @@ function Music(props) {
 		<div className="View">
 			<ProductsNavBar />
 
-			<h1>Music Comp</h1>
+			<h1>Music</h1>
 			<p>This is the music comp</p>
 		</div>
 	)
@@ -95,7 +95,7 @@ function Books(props) {
 		<div className="View">
 			<ProductsNavBar />
 
-			<h1>Books Comp</h1>
+			<h1>Books</h1>
 			<p>This is the books comp</p>
 		</div>
 	)
