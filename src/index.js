@@ -101,6 +101,25 @@ function Books(props) {
 	)
 }
 
+function Greeter(props) {
+	console.log(props);
+	const { first, last } = props.match.params;
+	return (
+		<div className="View">
+			<h2>Hello { first } { last }</h2>
+		</div>
+	)
+}
+
+/*
+function Products({ props }) {
+const { match } = props;
+
+<NavLink to={`${match.url}/movies`}
+
+<Route path={`${match.path}/movies`}
+*/
+
 
 ReactDOM.render(
 	<Router>
@@ -123,6 +142,7 @@ ReactDOM.render(
 				</li>
 			</ul>
 
+			<Route path="/hello/:first/:last" component={Greeter} />
 			<Route exact path="/" component={Home} />
 			<Route path="/about" component={About} />
 			<Route path="/products" component={Products} />
