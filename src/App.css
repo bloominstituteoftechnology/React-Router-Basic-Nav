@@ -1,7 +1,26 @@
 .App {
+	display: flex;
+	flex-direction: column;
   text-align: center;
 }
 
+.App__header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.NavItem {
+	list-style-type: none;
+}
+
+.App--item {
+	color: blue;
+	text-decoration: none;
+	margin: 5px;
+}
+
+/*
 .Nav-link {
   padding: 2rem;
 }
@@ -9,3 +28,4 @@
 .nav-item {
   margin-top: 1rem;
 }
+*/

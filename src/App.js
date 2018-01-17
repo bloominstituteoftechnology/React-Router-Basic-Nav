@@ -5,7 +5,8 @@ import { Home, About, Contact} from './components';
 
 const App = () => (
   <div>
-    <Navigation /> 
+    <Navigation />
+    <hr />
   </div>
 )
 
