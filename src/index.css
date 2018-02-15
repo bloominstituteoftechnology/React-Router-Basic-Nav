@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+.navlink--active {
+  font-size: 45px;
+  color: peachpuff
+  
+}
