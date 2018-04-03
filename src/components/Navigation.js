@@ -1,5 +1,10 @@
 import React from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Nav, NavItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
+
+const linkStyles = {
+  padding: '2rem',
+}
 
 const Navigation = () => {
   return (
@@ -7,13 +12,13 @@ const Navigation = () => {
       <Nav className="App">
         <h1>React Router Mini</h1>
         <NavItem>
-          <NavLink href="#">Home</NavLink>
+          <Link style={linkStyles} to="/">Home</Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#">About</NavLink>
+          <Link style={linkStyles} to="/about">About</Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#">Contact</NavLink>
+          <Link style={linkStyles} to="/contact">Contact</Link>
         </NavItem>
       </Nav>
     </div>
