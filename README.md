@@ -26,7 +26,7 @@ DONE * Step 2: Wrap your `<App />` component that you're passing to `ReactDOM.re
 
 DONE * Step 5: inside of your `App.js` file `import { Route } from 'react-router-dom';`
   - this is where we're going to declare and specify our router. 
-* Step 6: create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
+DONE* Step 6: create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
   - be sure to incluce the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components. 
 * Step 7: you should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
 
