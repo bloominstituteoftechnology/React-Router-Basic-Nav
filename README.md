@@ -1,4 +1,4 @@
-# React Router Mini
+# React Router Basic Nav
 
 Topics:
 
