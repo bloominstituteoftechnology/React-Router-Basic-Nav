@@ -1,11 +1,11 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const myFriends = ['Henry', 'Melissa', 'Jacob', 'Kylie'];
 
 const Friends = () => {
     return (
         <ul>
-            {myFriends.map(friend => <li key={friend}>{friend}</li>)}
+            {myFriends.map(friend => <Link to={`/friends/${friend}`} key={friend}>{friend}</Link>)}
         </ul>)
 }
 

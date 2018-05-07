@@ -3,6 +3,7 @@ import './App.css';
 import { Home, About, Contact, Navigation, Friends } from './components';
 import { Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import SingleFriend from './components/SingleFriend';
 
 const App = () => (
   <div>
@@ -16,7 +17,7 @@ const App = () => (
     <Route path="/about" component={About}></Route>
     <Route path="/contact" component={Contact}></Route>
     <Route path="/friends" component={Friends}></Route>
-  
+    <Route path="/friends/:name" component={SingleFriend}></Route>
   </div>
 );
 
