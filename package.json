@@ -11,6 +11,8 @@
     "reactstrap": "^4.8.0"
   },
   "scripts": {
+    "build-css": "less-watch-compiler --run-once --main-file=index.less src/less src",
+    "watch-less": "npm run build-css && less-watch-compiler --main-file=index.less src/less src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
