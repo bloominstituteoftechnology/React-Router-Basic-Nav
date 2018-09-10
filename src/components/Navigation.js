@@ -31,4 +31,14 @@ const NavLink = styled(Link)`
     text-decoration: none;
     color: black;
   }
+
+  &: visited {
+    text-decoration: none;
+    color: darkgray;
+  }
+
+  &:link {
+    text-decoration: none;
+    color: darkgray;
+  }
 `;
