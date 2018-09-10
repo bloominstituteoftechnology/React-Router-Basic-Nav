@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Navigation = () => {
   return (
@@ -6,13 +8,13 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a href="">Home</a>
+          <NavLink to="/">Home</NavLink>
         </div>
         <div>
-          <a href="">About</a>
+          <NavLink to="/about">About</NavLink>
         </div>
         <div>
-          <a href="">Contact</a>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
       </div>
     </div>
@@ -20,3 +22,13 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+const NavLink = styled(Link)`
+  text-decoration: none;
+  color: darkgray;
+
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+`;
