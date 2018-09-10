@@ -1,22 +1,41 @@
 import React from 'react';
-
+import {Nav, NavItem} from 'reactstrap';
+import {Link} from 'react-router-dom';
 const Navigation = () => {
   return (
     <div>
-      <div className="App">
+      <Nav className="App">
         <h1>React Router Mini</h1>
-        <div>
-          <a href="">Home</a>
-        </div>
-        <div>
-          <a href="">About</a>
-        </div>
-        <div>
-          <a href="">Contact</a>
-        </div>
-      </div>
-    </div>
+        <NavItem>
+         <Link to="/" className="Nav-Link">Home</Link>
+         </NavItem> 
+         <NavItem>
+           <Link to="/about" className="Nav-link">About</Link>
+
+         </NavItem>
+         <NavItem>
+           <Link to="/contact" className="Nav-link">Contact</Link>
+         </NavItem>
+         </Nav></div>
   );
 };
 
 export default Navigation;
+         
+         
+         
+         
+//          </Nav><a href="">Home</a>
+//         </div>
+//         <div>
+//           <a href="">About</a>
+//         </div>
+//         <div>
+//           <a href="">Contact</a>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Navigation;
