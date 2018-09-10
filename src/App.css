@@ -9,3 +9,9 @@
 .nav-item {
   margin-top: 1rem;
 }
+
+a {
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+}
