@@ -1,5 +1,7 @@
 import React from 'react';
 
-const Contact = () => <h1>Contact</h1>;
+import { StyledH1 } from './StyledComponents';
+
+const Contact = () => <StyledH1>Contact</StyledH1>;
 
 export default Contact;
