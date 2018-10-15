@@ -6,9 +6,9 @@ const Navigation = () => {
     <div>
       <div className="App">
         <h1>React Router Mini</h1>
-        <Link />
-        <Link />
-        <Link />
+        <Link to='/'>Home</Link> 
+        <Link to='/About'>About</Link>        
+        <Link to='/Contact'>Contact</Link> 
       </div>
     </div>
   );
