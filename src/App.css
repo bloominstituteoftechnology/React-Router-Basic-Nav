@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+  color: white;
 }
 
 .Nav-link {
@@ -8,4 +11,24 @@
 
 .nav-item {
   margin-top: 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.nav-menu a {
+  margin: 1rem;
+  color: hotpink;
+  font-weight: bold;
+}
+
+.headers {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 4rem;
+  color: hotpink;
 }
