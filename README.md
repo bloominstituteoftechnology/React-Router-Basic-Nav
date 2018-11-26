@@ -19,11 +19,11 @@ Topics:
 
 ### Steps for implementing React Router
 
-* You'll notice we've already installed react-router-dom for you.
-* `import` your BrowserRouter as Router inside your `index.js` file.
-* Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
-* open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
-* inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work. 
+[x] You'll notice we've already installed react-router-dom for you.
+[x] `import` your BrowserRouter as Router inside your `index.js` file.
+[x] Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
+[x] open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
+[x] inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work. 
 
 ### Steps for "Declaring" your routes
 
