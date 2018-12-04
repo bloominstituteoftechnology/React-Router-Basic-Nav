@@ -15,3 +15,6 @@ const App = () => (
 export default App;
 
 //Navigation and Route in App are siblings
+
+//can also do route as 
+//<Route path ="/" component ={Home} />
