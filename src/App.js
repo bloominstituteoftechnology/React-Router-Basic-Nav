@@ -7,5 +7,5 @@ const App = () => (
     <Navigation />
   </div>
 );
-
+ 
 export default App;
