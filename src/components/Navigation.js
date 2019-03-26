@@ -1,4 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
+//Head over to your app and start navigating. You should be able to see your URLS changing 
+//their paths as you go. Each path should display the proper component.
 
 const Navigation = () => {
   return (
@@ -6,13 +10,13 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a href="">Home</a>
+          <Link to={'/'}>Home</Link>
         </div>
         <div>
-          <a href="">About</a>
+          <Link to={'/about'}>About</Link>
         </div>
         <div>
-          <a href="">Contact</a>
+          <Link to={'/contact'}>Contact</Link>
         </div>
       </div>
     </div>
