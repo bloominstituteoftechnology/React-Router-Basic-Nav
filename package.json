@@ -1,9 +1,9 @@
 {
-  "name": "react-router-mini",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-router-basic-nav",
+  "version": "0.0.1",
+  "description": "lambda project basic nav example",
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "^4.3.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-router-dom": "^4.1.2",
@@ -14,6 +14,33 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "now-build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/React-Router-Basic-Nav.git"
+  },
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/React-Router-Basic-Nav/issues"
+  },
+  "homepage": "https://simple-react-router.now.sh",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.16.4"
   }
 }

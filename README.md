@@ -23,7 +23,7 @@ Topics:
 * `import` your BrowserRouter as Router inside your `index.js` file.
 * Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
 * open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
-* inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work. 
+* inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work.
 
 ### Steps for "Declaring" your routes
 
@@ -37,7 +37,7 @@ Topics:
 
 * Inside of `Navigation.js` `import { Link } from 'react-router-dom'`.
 * Declare the `to` as the href on `<Link>` and specify the correct routes for your app to navigate towards.
-* Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component. 
+* Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component.
 
 ### Resources
 
