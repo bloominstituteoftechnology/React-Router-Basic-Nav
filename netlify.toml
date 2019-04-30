@@ -1,0 +1,4 @@
+[build]
+base = "React-Router-Basic-Nav/"
+publish = "React-Router-Basic-Nav/build/"
+command = "yarn build"
