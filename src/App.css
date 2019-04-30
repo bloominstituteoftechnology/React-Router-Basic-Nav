@@ -4,8 +4,15 @@
 
 .Nav-link {
   padding: 2rem;
+ 
+  margin: 100px; 
+  
 }
 
 .nav-item {
   margin-top: 1rem;
+}
+
+.names {
+  text-align:center;
 }
