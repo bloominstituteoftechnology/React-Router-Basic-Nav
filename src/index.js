@@ -5,5 +5,5 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 
-
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
+const rootElement = document.getElementById('root');
+ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, rootElement ); 
