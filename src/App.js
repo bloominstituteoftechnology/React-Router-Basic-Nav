@@ -1,10 +1,19 @@
 import React from 'react';
 import './App.css';
-import { Navigation } from './components';
+import { Home, About, Contact, Navigation } from './components';
+import { BrowserRouter as Route } from 'react-router-dom';
 
 const App = () => (
-  <div>
-    <Navigation />
+  <div className="nav-item">
+      <div>
+        <
+        Navigation />
+      </div>
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contac" component={Contact} />
+        </div>
   </div>
 );
 

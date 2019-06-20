@@ -1,19 +1,20 @@
 import React from 'react';
-import { Home, Contact, About } from '.';
+import { Link } from 'react-router-dom';
+
 
 const Navigation = () => {
   return (
     <div>
       <div className="App">
         <h1>React Router Mini</h1>
-        <div>
-          <Home />
+        <div className="nav-item">
+          <Link to="/">Home</Link>
         </div>
-        <div>
-          <About />
+        <div className="nav-item">
+          <Link to="/about">About</Link>
         </div>
-        <div>
-          <Contact />
+        <div className="nav-item">
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>
