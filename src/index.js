@@ -15,5 +15,3 @@ import { BrowserRouter as Router} from 'react-router-dom';
     </Router>,
     document.getElementById('root')
   );
-
-// export { Home, About, Contact, Navigation };
