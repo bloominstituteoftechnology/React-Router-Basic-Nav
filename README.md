@@ -42,3 +42,15 @@ Topics:
 
 * [Code Sandbox from Lecture](https://codesandbox.io/s/n58oqgwmP)
 * [React Router 4 Quick Start Guide](https://reacttraining.com/react-router/web/guides/quick-start)
+
+
+### Better Steps by None Other Than Alec Thomas Quinn Himself
+
+1. import  _import ReactDOM from 'react-dom';_ into your index.js file.
+
+2. import _import { BrowserRouter as Router, Route, Link } from "react-router-dom";_ into your App.js file
+
+3. add _<Route path='path goes here etc.'>_ as many as needed, use _exact_ keyword on the first page.
+
+4. turn any <a href=''> tags into _<Link to='WhatevsComponent'>whatevs</Link>_
+
