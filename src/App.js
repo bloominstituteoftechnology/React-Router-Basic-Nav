@@ -10,14 +10,14 @@ import './App.css';
 const App = () => (
   <Router>
     <Navigation />
-    <Link to="/">Home{' '}</Link> 
+    {/* <Link to="/">Home{' '}</Link> 
      <Link to="/about">About{' '}</Link> 
      <Link to="/contact">Contact</Link>
-     
+      */}
      <Switch>
           <Route path="/" exact component={Home} />
          
-          <Route path="/about/" component={About} />
+          <Route path="/about/:id" component={About} />
           <Route path="/contact/" component={Contact} />
       
           
