@@ -35,10 +35,10 @@ Topics:
 ### Steps for setting up your Navigation
 
 * Inside of `Navigation.js` `import { Link } from 'react-router-dom'`.
-* Declare the `to` as the href on `<Link>` and specify the correct routes for your app to navigate towards.
+* Declare the `to` as the href on `<Link>` and specify the correct routes for your app to navigate towards. 
 * Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component. 
 
 ### Resources
 
-* [Code Sandbox from Lecture](https://codesandbox.io/s/n58oqgwmP)
+* [Code Sandbox from Lecture](https://codesandbox.io/s/trinkets-react-router-i-solution-oo60v)
 * [React Router 4 Quick Start Guide](https://reacttraining.com/react-router/web/guides/quick-start)
