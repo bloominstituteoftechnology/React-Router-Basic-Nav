@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+body h1 {
+  font-size: 3rem;
+  background-color: rgb(223, 223, 223);
+}
+
+.home, .about, .contact {
+  font-size: 2rem;
+  color: black;
+}
+
+
