@@ -8,7 +8,6 @@ const App = () => (
       <Route exact path="/" component={Home}/>
       <Route exact path="/about"components={About}/>
       <Route path ="/contact"  components={Contact}/>  
-    
   </div>
 );
 
