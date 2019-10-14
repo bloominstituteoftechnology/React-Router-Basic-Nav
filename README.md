@@ -15,7 +15,7 @@ Topics:
 ### Initialize Project
 
 * cd into the repository and run `yarn install`
-* run `yarn start`
+* run `yarn start`.
 
 ### Steps for implementing React Router
 
