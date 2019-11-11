@@ -1,6 +1,6 @@
 # React Router Basic Nav
 
-Topics:
+Topics::
 
 * Single Page Applications
 * React Router V4 (react-router-dom)
