@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+h1{
+  text-align: center;
+}
+.linkDiv{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 .Nav-link {
   padding: 2rem;
@@ -8,4 +16,9 @@
 
 .nav-item {
   margin-top: 1rem;
+}
+.home-image{
+width: 70%;
+margin: 0 15%;
+
 }
