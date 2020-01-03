@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  text-decoration-color: rgb(65, 225, 100);
 }
 
 .Nav-link {
@@ -8,4 +9,5 @@
 
 .nav-item {
   margin-top: 1rem;
+  font-size: 15px;
 }
