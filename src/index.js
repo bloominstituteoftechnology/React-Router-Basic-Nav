@@ -5,6 +5,8 @@ import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 
+// Router Render Below
+
 ReactDOM.render(
   <Router>
     <App />

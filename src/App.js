@@ -5,6 +5,7 @@ import { Home, About, Contact, Navigation } from "./components";
 
 const App = () => (
   <div>
+    {/* Nav Component */}
     <Navigation />
     <Route exact path="/">
       <Home />
