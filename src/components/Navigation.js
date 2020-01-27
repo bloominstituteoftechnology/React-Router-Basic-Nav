@@ -18,6 +18,9 @@ const Navigation = () => {
         <div>
           <Link to="/Fun">About Bob</Link>
         </div>
+        <div>
+          <Link to="/Mandi">About Mandi</Link>
+        </div>
       </div>
     </div>
   );
