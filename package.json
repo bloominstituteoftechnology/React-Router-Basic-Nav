@@ -3,7 +3,9 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "4.3.1",
+    "dependencies": "0.0.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-router-dom": "^5.1.2",
