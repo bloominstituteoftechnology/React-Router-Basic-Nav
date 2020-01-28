@@ -21,6 +21,12 @@ const Navigation = () => {
         <div>
           <Link to="/Mandi">About Mandi</Link>
         </div>
+        <div>
+          <Link to="/Juana">About Juana</Link>
+        </div>
+        <div>
+          <Link to="/Zach">About Zach</Link>
+        </div>
       </div>
     </div>
   );
