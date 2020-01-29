@@ -36,7 +36,7 @@ Topics:
 
 - [X] Inside of `Navigation.js` `import { Link } from 'react-router-dom'`.
 - [X] Declare the `to` as the href on `<Link>` and specify the correct routes for your app to navigate towards.
-- [ ] Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component. 
+- [X] Head over to your app and start navigating. You should be able to see your URLS changing their paths as you go. Each path should display the proper component. 
 
 ### Resources
 
