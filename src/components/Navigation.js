@@ -5,16 +5,14 @@ const Navigation = () => {
   return (
     <div>
       <div className="App">
-        <h1>React Router Mini</h1>
-        <div>
-          <a href="">Home</a>
-        </div>
-        <div>
-          <a href="">About</a>
-        </div>
-        <div>
-          <a href="">Contact</a>
-        </div>
+        <nav>
+          <h1>React Router Mini</h1>
+          <div className='nav-links'>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
+        </nav>
       </div>
     </div>
   );
