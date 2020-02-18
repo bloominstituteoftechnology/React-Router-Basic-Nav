@@ -1,9 +1,5 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router-dom'
-
-import Home from "./Home"
-import About from "./About"
-import Contact from "./Contact"
 
 const Navigation = () => {
   return (
@@ -15,7 +11,7 @@ const Navigation = () => {
             <div><Link to="/contact">Contact</Link></div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Navigation;

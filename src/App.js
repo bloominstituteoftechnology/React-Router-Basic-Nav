@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route } from 'react-router-dom';
-import './App.css';
-import { Home, About, Contact, Navigation } from './components';
+import React from 'react'
+import { Route } from 'react-router-dom'
+import './App.css'
+import { Home, About, Contact, Navigation } from './components'
 
 const App = () => (
   <div>
@@ -10,6 +10,6 @@ const App = () => (
         <Route path="/contact" component={Contact}/>
         <Navigation />
   </div>
-);
+)
 
 export default App;
