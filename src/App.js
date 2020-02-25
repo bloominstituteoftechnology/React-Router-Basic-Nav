@@ -10,8 +10,8 @@ const App = () => (
         / , /about, /contact respectively
     */}
     <Route exact path="/" component={Home}/>
-    <Route exact path="/" component={About}/>
-    <Route exact path="/" component={Contact}/>
+    <Route path="/About" component={About}/>
+    <Route path="/Contact" component={Contact}/>
   </div>
 );
 
