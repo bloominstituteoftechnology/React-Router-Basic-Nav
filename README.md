@@ -3,19 +3,19 @@
 Topics:
 
 * Single Page Applications
-* React Router V4 (react-router-dom)
+* React Router V5 (react-router-dom)
 * Routing, declarative component based routing
 * Path and Component
 
 ## Project Description
 
 * A starter pack project for all things React Router. Learn to set up a basic routing system within an application. Use this application to help guide your learning over the next couple of days.
-* **Note** that this project has already been boilerplated for you. There is no need to run any installation steps beyond `yarn install`.
+* **Note** that this project has already been boilerplated for you. There is no need to run any installation steps beyond `npm install`.
 
 ### Initialize Project
 
-- [ ] cd into the repository and run `yarn install`
-- [ ] run `yarn start`
+- [ ] cd into the repository and run `npm install`
+- [ ] run `npm start`
 
 ### Steps for implementing React Router
 
